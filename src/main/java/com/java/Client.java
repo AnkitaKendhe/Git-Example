@@ -5,8 +5,8 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class Client {
 	public static void main(String[] args) {
-		ApplicationContext context=new ClassPathXmlApplicationContext("spring.xml");
-			Student student=(Student)context.getBean("s");
+		ApplicationContext context1=new ClassPathXmlApplicationContext("spring.xml");
+			Student student=(Student)context1.getBean("s");
 			System.out.println("Student data>>"+student); 
 	
 }
